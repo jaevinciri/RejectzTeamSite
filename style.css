@@ -18,10 +18,9 @@
   gap: 1.5em;
 }
 
-.nav-title{
-    color: red;
-    font-size: 5em;
-   
+.nav-title {
+  color: red;
+  font-size: 5em;
 }
 .nav-links {
   display: inline-flex;
@@ -45,12 +44,19 @@
   font-size: 20px;
 }
 
-.container{
-    height: 600px;
+.container {
+  height: 600px;
+  display: flex;
+  padding-top: 30px;
 }
 
-.container2{
-    display: flex;
-    justify-content: space-evenly;
-    height: 600px;
+.col {
+  height: 200px;
+  flex: 6;
+ margin: 10px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
 }
