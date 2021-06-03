@@ -7,12 +7,13 @@
 }
 
 .nav{
-    background-color:goldenrod;
+    background-color:lightgray;
     display: flex;
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    max-height: 50px;
 }
 
 
@@ -30,11 +31,32 @@
     text-decoration: none; 
     font-size: 20px;
 }
+.nav img{
+    text-align: center;
+    border-radius: 20px;
+}
 
 .btn{
-    background-color: blue;
+    background-color:blue;
     color: white;
     box-shadow: black 3px 3px;
     font-size: 20px;
+}
 
+.Main{
+    background-color:floralwhite;
+}
+.PlayerCardRow1 h1{
+    text-align: center;
+    min-height: 300px;
+    
+}
+
+
+.twitch img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+    min-width: 300px;
 }
